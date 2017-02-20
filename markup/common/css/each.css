@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* 共通 */
+body{font-size:12px;line-height: 166%;text-align: left;	-webkit-text-size-adjust: 100%;}
+a:link{color:#000000; text-decoration:none;}
+a:visited{color:#000000; text-decoration:none;}
+a:active{color:#000000; text-decoration:none;}
+a:hover{color:#000000; text-decoration:none;}
+
+img{
+	max-width: 100%;
+	height: auto;
+	width :auto;
+}
+
+/* pc,sp切り替え PCとSP側で、表示を変更したい時に利用していください。*/
+.sp{display:none !important;}
+.pc{display:block !important;}
+@media screen and (max-width: 767px) {
+	.sp{display:block !important;}
+	.pc{display:none !important;}
+}
