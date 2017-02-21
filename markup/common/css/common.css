@@ -68,7 +68,7 @@ input, button, textarea, select {
 }
 .small-header #header{box-shadow:0 2px 3px rgba(0,0,0,0.08);}
 #header .top_bar{
-	padding:22px 23px 41px 30px;
+	padding:22px 23px 22px 30px;
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
 	-o-transition: all 0.5s ease;
@@ -484,6 +484,119 @@ input, button, textarea, select {
 	color:#333;
 	letter-spacing:1px;
 }
+/* title banner */
+.title_banner{
+	position:relative;
+	margin-bottom:120px;
+}
+.title_banner img{
+	display:block;
+	width:100%;
+}
+.title_banner .text{
+	position:absolute;
+	bottom:19%;
+	left:50%;
+	width:760px;
+	text-align:center;
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+	color:#fff;
+}
+.title_banner h2{
+	margin-bottom:6px;
+	font-size:30px;
+	line-height:51px;
+	letter-spacing:6px;
+}
+.title_banner p{
+	margin-bottom:33px;
+	font:bold 16px/22px Arial, Helvetica, sans-serif;
+	letter-spacing:1.5px;
+}
+.title_banner .button{
+	display:inline-block;	vertical-align:top;
+	padding:0 4px;
+	min-width:130px;
+	font-size:18px;
+	line-height:51px;
+	letter-spacing: 1.5px;
+	color:#fff;
+	opacity:1;
+	-webkit-transition: opacity 0.5s ease;
+	-moz-transition: opacity 0.5s ease;
+	-o-transition: opacity 0.5s ease;
+	transition: opacity 0.5s ease;
+}
+.title_banner .button.green{background:#00d900;}
+.title_banner .button.red{background:#f00;}
+.title_banner .button:hover{opacity:0.8;}
+/* declaration text */
+.declaration_text{
+	margin:0 auto 145px;
+	padding:0 20px;
+	max-width:800px;
+}
+.declaration_text h2{
+	margin-bottom:10px;
+	font-size:30px;
+	line-height:34px;
+	font-weight:bold;
+	color:#1f3096;
+	text-align:center;
+	letter-spacing:5.5px;
+}
+.declaration_text h3{
+	margin-bottom:52px;
+	font:bold 14px/20px Arial, Helvetica, sans-serif;
+	color:#1f3096;
+	text-align:center;
+	letter-spacing:0.8px;
+}
+.declaration_text p{
+	margin-bottom:21px;
+	font-size:14px;
+	line-height:21px;
+	letter-spacing:1.2px;
+}
+.declaration_text .num_list{
+	margin:40px 0;
+	font-size:14px;
+	line-height:21px;
+	letter-spacing:1.2px;
+}
+.declaration_text .num_list li{
+	border-bottom:1px #e9e9e9 solid;
+	padding:20px 4px 19px;
+	overflow:hidden;
+}
+.declaration_text .num_list .num{
+	font:bold 14px/21px Arial, Helvetica, sans-serif;
+	float:left;
+	width:40px;
+}
+.declaration_text .num_list p{
+	margin:0;
+	overflow:hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -536,9 +649,7 @@ input, button, textarea, select {
 	letter-spacing:0.7px;
 	overflow:hidden;
 }
-.footer_bar .holder .links{
-	float:left;
-}
+.footer_bar .holder .links{float:left;}
 .footer_bar .holder .links li,
 .footer_bar .holder .links li a{
 	display:inline-block;	vertical-align:top;

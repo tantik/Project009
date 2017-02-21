@@ -381,6 +381,64 @@
 		font-size:12px;
 		line-height:18px;
 	}
+	/* title banner */
+	.title_banner{margin-bottom:43px;}
+	.title_banner .text{bottom:11%;}
+	.title_banner h2{
+		margin-bottom:1px;
+		font-size:15px;
+		line-height:30px;
+		letter-spacing:3px;
+	}
+	.title_banner p{
+		font-size:8px;
+		line-height:12px;
+		margin-bottom:9px;
+		letter-spacing:1px;
+	}
+	.title_banner .button{
+		padding:0 2px;
+		min-width:65px;
+		font-size:9px;
+		line-height:26px;
+	}
+	/* declaration text */
+	.declaration_text{margin-bottom:70px;}
+	.declaration_text h2{
+		margin:0;
+		font-size:17px;
+		line-height:26px;
+		letter-spacing:3px;
+	}
+	.declaration_text h2 span{display:block;}
+	.declaration_text h3{
+		margin-bottom:27px;
+		font-size:9px;
+		line-height:12px;
+		letter-spacing:0.2px;
+	}
+	.declaration_text p{
+		margin-bottom:18px;
+		font-size:12px;
+		line-height:18px;
+		letter-spacing:1px;
+	}
+	.declaration_text .num_list{
+		margin:30px 0;
+		font-size:12px;
+		line-height:18px;
+		letter-spacing:1px;
+	}
+	.declaration_text .num_list li{padding:13px 2px;}
+	.declaration_text .num_list .num{
+		font-size:12px;
+		line-height:18px;
+		width:20px;
+	}
+	
+	
+	
+	
 	
 	
 	
