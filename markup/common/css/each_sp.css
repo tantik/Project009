@@ -164,7 +164,7 @@
 		padding-right:30px;
 	}
 	.nav.sp .slide_link:after{
-		content:'';		position:absolute;		top:50%;		right:15px;		width:10px;		height:10px;		margin-top:-5px;		background:url(../../img/common/sp_nav_arrow.png) no-repeat;
+		content:'';		position:absolute;		top:50%;		right:15px;		width:10px;		height:10px;		margin-top:-5px;		background:url(../../common/img/common/sp_nav_arrow.png) no-repeat;
 		background-size:10px 10px;
 		-webkit-transition: all 0.5s ease;
 		-moz-transition: all 0.5s ease;
@@ -208,7 +208,7 @@
 		left:8px;
 	}
 	.gallery .swiper-button-next{
-		background: url(../../img/index/gallery_arrows.png) no-repeat 0 -25px;
+		background: url(../../common/img/index/gallery_arrows.png) no-repeat 0 -25px;
 		background-size:12px 50px;
 		right:8px;
 	}
@@ -523,4 +523,14 @@
 		background-size:139px 31px;
 		float:none;
 	}
+	.link_to_top_fixed{
+		width:57px;
+		height:74px;
+		background-size:57px 74px;
+		padding-top:43px;
+		font-size:8px;
+		line-height:12px;
+		bottom:10px;
+	}
+	.small-header .link_to_top_fixed{right:10px;}
 }
