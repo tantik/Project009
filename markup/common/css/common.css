@@ -551,6 +551,7 @@ input, button, textarea, select {
 	padding:0 20px;
 	max-width:800px;
 }
+#privacy .declaration_text{margin-bottom:132px;}
 .declaration_text h2{
 	margin-bottom:10px;
 	font-size:30px;
@@ -573,26 +574,63 @@ input, button, textarea, select {
 	line-height:21px;
 	letter-spacing:0.5px;
 }
-.declaration_text .num_list{
+.declaration_text h4{
+	margin-bottom:10px;
+	font-size:14px;
+	line-height:21px;
+	font-weight:bold;
+	letter-spacing:0.5px;
+}
+.num_list{
 	margin:40px 0;
 	font-size:14px;
 	line-height:21px;
 	letter-spacing:0.5px;
 }
-.declaration_text .num_list li{
+.num_list.top{margin-top:23px;}
+.num_list.text{
+	border-top:1px #e9e9e9 solid;
+	margin-bottom:28px;
+}
+.num_list li{
 	border-bottom:1px #e9e9e9 solid;
 	padding:20px 4px 19px;
 	overflow:hidden;
 }
-.declaration_text .num_list .num{
+.num_list.text li{padding:30px 4px 9px;}
+.num_list .num{
 	font:bold 14px/21px Arial, Helvetica, sans-serif;
 	float:left;
 	width:40px;
 }
-.declaration_text .num_list p{
+.num_list.text .num{
+	float:none;
+	display:block;
+	width:auto;
+	margin-bottom:12px;
+}
+.num_list.text p{
+	font-size:14px;
+	line-height:21px;
+	margin-bottom:21px;
+}
+.num_list .sub{
+	margin:0 0 21px 17px;
+	overflow:hidden;
+}
+.num_list .sub_sub{
+	margin:-19px 0 8px 29px;
+	overflow:hidden;
+}
+.num_list .sub.last,
+.num_list .sub_sub.last,
+.num_list .sub_sub.last p{margin-bottom:0;}
+.declaration_text .num_list p,
+.num_list p{
 	margin:0;
 	overflow:hidden;
 }
+.declaration_text .bottom_info p{margin:0 0 30px 5px;}
 /* site map */
 .site_map{
 	margin:0 auto 162px;
@@ -658,6 +696,61 @@ input, button, textarea, select {
 	padding-right:28px;
 	background:url(../../common/img/sitemap/site_map_icon.png) no-repeat 100% 50%;
 }
+/* privacy box */
+.privacy_box{
+	margin:0 auto 135px;
+	padding:0 20px;
+	max-width:800px;
+	letter-spacing:3px;
+}
+.privacy_box.last{margin-bottom:245px;}
+.privacy_box p{
+	font-size:14px;
+	line-height:21px;
+	letter-spacing:0.5px;
+}
+.privacy_box h2{
+	margin-bottom:60px;
+	font-size:24px;
+	line-height:46px;
+	font-weight:bold;
+	text-align:center;
+}
+.privacy_box h2 span{
+	display:inline-block;	vertical-align:top;
+	position:relative;
+	z-index:2;
+	padding:0 12px;
+}
+.privacy_box h2 span:before{
+	content:'';	position:absolute;	bottom:0;	left:0;	right:0;	height:18px;	background:url(../../common/img/privacy/title_yellow_bg.png);	z-index:-1;
+}
+.privacy_box p{margin-bottom:40px;}
+.privacy_box .bottom_info h4{
+	margin-bottom: 10px;
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+}
+.privacy_box .bottom_info p{margin:0 0 30px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
