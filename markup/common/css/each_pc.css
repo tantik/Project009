@@ -16,7 +16,7 @@
 		padding-left:10px;
 		background:url(../../common/img/common/top_links_arrow.png) no-repeat 0 50%;
 		color:#000;
-		letter-spacing:1.2px;
+		letter-spacing:0.5px;
 		position:relative;
 		opacity:1;
 		-webkit-transition: opacity 0.5s ease;
@@ -31,7 +31,7 @@
 		text-align:center;
 		font-size:14px;
 		line-height:31px;
-		letter-spacing:1px;
+		letter-spacing:0.5px;
 	}
 	.nav.pc.dark{background:#000;}
 	#dropmenu > li{
@@ -107,6 +107,21 @@
 	
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	/* フッターここから */
 	/* footer links */
 	.footer_links h3{
@@ -156,7 +171,10 @@
 		line-height:18px;
 		color:#333;
 	}
-	.footer_links .links ul.blue a{color:#1f259b;}
+	.footer_links .links ul.blue a{
+		color:#1f259b;
+		font-weight:bold;
+	}
 	.footer_links .links ul a.icon{
 		padding-right:19px;
 		background:url(../../common/img/common/footer_links_icon.png) no-repeat 100% 50%;

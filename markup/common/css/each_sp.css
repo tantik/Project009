@@ -266,7 +266,7 @@
 		width:68%;
 		font-size:12px;
 		line-height:18px;
-		letter-spacing:1px;
+		letter-spacing:0.5px;
 	}
 	.business_case .boxes{margin:0;}
 	.business_case .boxes .box{
@@ -290,7 +290,7 @@
 	.business_case .box .text p{
 		font-size:12px;
 		line-height:18px;
-		letter-spacing:1.1px;
+		letter-spacing:0.5px;
 		text-align:left;
 	}
 	/* social box */
@@ -394,7 +394,7 @@
 		font-size:8px;
 		line-height:12px;
 		margin-bottom:9px;
-		letter-spacing:1px;
+		letter-spacing:0.5px;
 	}
 	.title_banner .button{
 		padding:0 2px;
@@ -421,13 +421,13 @@
 		margin-bottom:18px;
 		font-size:12px;
 		line-height:18px;
-		letter-spacing:1px;
+		letter-spacing:0.5px;
 	}
 	.declaration_text .num_list{
 		margin:30px 0;
 		font-size:12px;
 		line-height:18px;
-		letter-spacing:1px;
+		letter-spacing:0.5px;
 	}
 	.declaration_text .num_list li{padding:13px 2px;}
 	.declaration_text .num_list .num{
@@ -435,6 +435,62 @@
 		line-height:18px;
 		width:20px;
 	}
+	/* site map */
+	.site_map{margin-bottom:50px;}
+	.site_map .columns .col{
+		float:none !important;
+		width:100% !important;
+	}
+	.site_map h2,
+	.site_map h3,
+	.site_map .links{
+		font-size:12px;
+		line-height:18px;
+	}
+	.site_map h2{
+		width:100%;
+		padding-bottom:1px;
+		margin-bottom:33px;
+	}
+	.site_map h3{
+		padding:0 0 1px 0;
+		margin-bottom:10px;
+	}
+	.site_map .links{
+		margin-bottom:30px; 
+		padding-left:5px;
+	}
+	.site_map .links.parent{margin-bottom:23px;}
+	.site_map .links.parent ul{
+		padding-top:10px;
+		margin-bottom:20px;
+	}
+	.site_map h3.single{margin-bottom:30px;}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
@@ -502,7 +558,7 @@
 	.footer_bar .holder .links li a{
 		font-size:11px;
 		line-height:16px;
-		letter-spacing:1px;
+		letter-spacing:0.5px;
 	}
 	.footer_bar .holder .copyright{
 		float:none;

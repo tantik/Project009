@@ -33,7 +33,8 @@ function initGallery(){
 		loop: true,
 		nextButton: '.swiper-button-next',
 		prevButton: '.swiper-button-prev',
-		spaceBetween: 0
+		spaceBetween: 0,
+		effect: 'fade'
     });
 }
 
