@@ -11,6 +11,11 @@ function initPage(){
 	mobileMenu();
 	$('.slide_block').slideBlock();
 	
+	
+	$(function() {
+		jcf.replaceAll();
+	});
+	
 }
 
 /* Drop Navigation */
