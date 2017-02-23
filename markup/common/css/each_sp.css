@@ -384,7 +384,9 @@
 	/* title banner */
 	.title_banner,
 	#contact .title_banner{margin-bottom:43px;}
+	#social .title_banner{margin-bottom:46px;}
 	.title_banner .text{bottom:11%;}
+	.title_banner .text.no_btn{bottom:28%;}
 	.title_banner h2{
 		margin-bottom:1px;
 		font-size:15px;
@@ -610,6 +612,10 @@
 		font-size:12px;
 		line-height:18px;
 	}
+	.radio_list input,
+	.radio_list .jcf-radio{
+		margin:3px 8px 0 0;
+	}
 	#main .radio_list label{
 		margin:0;
 		font-size:12px;
@@ -621,11 +627,6 @@
 		margin:0 -20px 0;
 		padding:28px 20px 0;
 	}
-	.jcf-checkbox{
-		width:14px;
-		height:14px;
-	}
-	:root .jcf-checkbox span {margin:-5px 0 0 -5px;}
 	.contact_box .check_row{margin-bottom:4px;}
 	.contact_box .check_row .jcf-checkbox{margin:0 5px 0 0;}
 	.contact_box .button-holder{
@@ -640,28 +641,91 @@
 		line-height:38px;
 		letter-spacing:0;
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	/* social block */
+	.social_block{margin-bottom:28px;}
+	.social_block .heading{margin-bottom:40px;}
+	.social_block .title{
+		margin-bottom:36px;
+		font-size:14px;
+		line-height:22px;
+		padding:0 6px;
+	}
+	.social_block .title:before{height:9px;}
+	.social_block h2{
+		margin-bottom:20px;
+		font-size:21px;
+		line-height:30px;
+		letter-spacing:2px;
+	}
+	.social_block .heading p{
+		margin:0 10px 21px;
+		font-size:12px;
+		line-height:21px;
+		letter-spacing:0.5px;
+	}
+	.social_fields{margin-bottom:20px;}
+	.social_fields .box h3{
+		font-size:13px;
+		line-height:17px;
+		padding:9px 5px;
+	}
+	.social_fields .box .holder{padding:25px 25px 18px;}
+	.social_fields .image_box{
+		float:none;
+		margin-bottom:10px;
+		width:100%;
+		padding:0;
+	}
+	.social_fields .image_box .image .btn{
+		bottom:20px;
+		font-size:10px;
+		line-height:25px;
+		padding:0 6px;
+	}
+	.social_fields .image_box .text{
+		font-size:12px;
+		line-height:18px;
+		padding:8px 5px;
+	}
+	.social_fields .arrow{
+		margin:15px auto; 
+		width:45px;
+		height:39px;
+		background-size:45px 39px;
+	}
+	/* social activities */
+	.social_activities{
+		padding-top:56px;
+		padding-bottom:40px;
+	}
+	.social_activities h2{
+		margin-bottom:2px;
+		font-size:17px;
+		line-height:24px;
+	}
+	.social_activities h3{
+		font-size:9px;
+		line-height:12px;
+		margin-bottom:48px;
+	}
+	.activities{margin-bottom:25px;}
+	.activities li{margin-bottom:32px;}
+	.activities h4{
+		font-size:13px;
+		line-height:18px;
+		padding-bottom:3px;
+		margin-bottom:15px;
+	}
+	.activities .box .image{
+		float:none;
+		display:block;
+		margin:0 0 12px 0;
+		width:100%;
+	}
+	.activities .box .text{
+		font-size:12px;
+		line-height:18px;
+	}
 	
 	
 	

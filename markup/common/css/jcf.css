@@ -62,5 +62,23 @@
 	top: 0;
 }
 .jcf-checkbox.jcf-checked span{display:block;}
+/* mobile styles */
+@media screen and (max-width: 767px) {
+	.jcf-radio{
+		margin:3px 8px 0 0;
+		width:13px;
+		height:13px;
+		background:url(../../common/img/common/form_radio_sp_bg.png) no-repeat;
+		background-size:13px 30px;
+	}
+	.jcf-radio.jcf-checked{background-position:0 -15px}
+	
+	.jcf-checkbox{
+		width:14px;
+		height:14px;
+	}
+	:root .jcf-checkbox span {margin:-5px 0 0 -5px;}
+}
+
 /* common styles */
 .jcf-disabled {opacity:0.5 !important;}
