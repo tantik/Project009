@@ -385,6 +385,7 @@
 	.title_banner,
 	#contact .title_banner{margin-bottom:43px;}
 	#social .title_banner{margin-bottom:46px;}
+	.title_banner .text.no_btn .button{display:none;}
 	.title_banner .text{bottom:11%;}
 	.title_banner .text.no_btn{bottom:28%;}
 	.title_banner h2{
@@ -726,17 +727,348 @@
 		font-size:12px;
 		line-height:18px;
 	}
+	/* top message */
+	.top_message{margin-bottom:14px;}
+	.top_message h2{
+		margin-bottom:3px;
+		font-size:17px;
+		line-height:24px;
+	}
+	.top_message h3{
+		font-size:9px;
+		line-height:12px;
+		margin-bottom:29px;
+	}
+	.top_message .holder{
+		font-size:12px;
+		line-height:18px;
+	}
+	.top_message .person{
+		margin:0 auto 38px;
+		width:100%;
+		float:none;
+		max-width:398px;
+	}
+	.top_message .person .hold{
+		padding:25px 28px 0;
+		margin-bottom:11px;
+	}
+	.top_message .person .name{
+		font-size:14px;
+		line-height:18px;
+		margin-bottom:15px;
+	}
+	.top_message .person .position{
+		font-size:9px;
+		line-height:17px;
+	}
+	.top_message .person .position img{
+		height:17px;
+		width:auto;
+	}
+	.top_message h4{
+		margin-bottom:13px;
+		font-size:12px;
+		line-height:18px;
+	}
+	.top_message p{margin-bottom:18px;}
+	.top_message .txt{padding-bottom:15px;}
+	/* management */
+	.management{
+		padding-top:40px;
+		padding-bottom:28px;
+		margin-bottom:46px;
+	}
+	.management h2{
+		margin-bottom:3px;
+		font-size:17px;
+		line-height:24px;
+	}
+	.management h3{
+		font-size:9px;
+		line-height:12px;
+		margin-bottom:29px;
+	}
+	.management h4{
+		width:100%;
+		max-width:280px;
+		margin-bottom:40px;
+	}
+	.management h5{
+		margin-bottom:31px;
+		font-size:14px;
+		line-height:22px;
+		padding:0 6px;
+	}
+	.management h5:before{height:9px;}
+	.management .policy{margin:0 0 18px;}
+	.management .policy li{
+		width:100%;
+		float:none;
+		padding:0 0 30px;
+	}
+	.management .policy .box{
+		background-size:30px 18px;
+		padding:24px 30px 19px;
+	}
+	.management .policy h6{
+		margin-bottom:9px;
+		font-size:13px;
+		line-height:18px;
+	}
+	.management .policy h6 span{
+		font-size:15px;
+		line-height:18px;
+	}
+	.management .policy p{
+		font-size:12px;
+		line-height:18px;
+		letter-spacing:0.8px;
+	}
+	.management .policy p span{display:inline;}
+	.management .trainings{
+		margin-bottom:20px;
+		font-size:12px;
+		line-height:18px;
+	}
+	.management .trainings li{padding:15px 10px;}
+	.management .trainings li:first-child{padding-top:0;}
+	.management .trainings h6{
+		margin-bottom:6px;
+		font-size:13px;
+		line-height:18px;
+	}
+	.management .trainings p span{display:inline;}
+	/* profile */
+	.profile{margin-bottom:49px;}
+	.profile h2{
+		margin-bottom:3px;
+		font-size:17px;
+		line-height:24px;
+	}
+	.profile h3{
+		font-size:9px;
+		line-height:12px;
+		margin-bottom:29px;
+	}
+	.company_info{margin:0 -20px 45px;}
+	.company_info .image .button{
+		width:101px;
+		font-size:10px;
+		line-height:26px;
+		bottom:36%;
+	}
+	.company_info .text{padding:16px 20px 30px;}
+	.company_info .text dl{padding:12px 0;}
+	.company_info .text dl dt{
+		float:none;
+		display:block;
+		font-size:12px;
+		line-height:18px;
+		margin:0 0 4px;
+		width:100%;
+	}
+	.company_info .text dl dd{
+		font-size:12px;
+		line-height:18px;
+	}
+	/* history */
+	.history{margin-bottom:49px;}
+	.history h2{
+		margin-bottom:3px;
+		font-size:17px;
+		line-height:24px;
+	}
+	.history h3{
+		font-size:9px;
+		line-height:12px;
+		margin-bottom:29px;
+	}
+	.history .company_info .text{
+		padding-top:15px;
+	}
+	.history .company_info .text dl{padding:13px 0;}
+	/* sports */
+	.sports{
+		padding-top:40px;
+		padding-bottom:15px;
+		margin-bottom:44px;
+	}
+	.sports h2{
+		margin-bottom:3px;
+		font-size:17px;
+		line-height:24px;
+	}
+	.sports h3{
+		font-size:9px;
+		line-height:12px;
+		margin-bottom:29px;
+	}
+	.sports h4{
+		margin-bottom:6px;
+		font-size:13px;
+		line-height:18px;
+	}
+	.sports h4 img{
+		width:9px;
+		margin:6px 6px 0 0;
+	}
+	.sports .block{
+		margin:0 0 20px;
+		font-size:12px;
+		line-height:18px;
+	}
+	.sports .images{margin:0;}
+	.sports .images li{
+		width:100%;
+		float:none;
+		padding:0;
+		margin:0 0 5px;
+	}
+	/* access */
+	.access{margin-bottom:75px;}
+	.access h2{
+		margin-bottom:3px;
+		font-size:17px;
+		line-height:24px;
+	}
+	.access h3{
+		font-size:9px;
+		line-height:12px;
+		margin-bottom:29px;
+	}
+	.access .map{margin-bottom:35px;}
+	.access_info{
+		margin-bottom:68px;
+		font-size:12px;
+		line-height:18px;
+	}
+	.access_info h4{
+		margin:0;
+		font-size:13px;
+		line-height:18px;
+		padding-bottom:6px;
+	}
+	.access_info h4 img{
+		width:9px;
+		margin:6px 6px 0 0;
+	}
+	.access_info dl{padding:13px 0;}
+	.access_info dl dt{
+		width:100%;
+		float:none;
+		margin:0 4px 0 0;
+	}
+	.access_info dl dt span{margin-right:15px;}
+	.access_info dl dt span:last-child{margin:0;}
+	.access_info dl dt img{width:7px;}
+	.access_info .txt{
+		font-size:12px;
+		line-height:20px;
+		margin-bottom:0;
+	}
+	.access_info .txt p{margin-bottom:15px;}
+	/* strength */
+	.strength{
+		padding-top:40px;
+		padding-bottom:20px;
+	}
+	.strength h2{
+		margin-bottom:3px;
+		font-size:17px;
+		line-height:24px;
+	}
+	.strength h3{
+		font-size:9px;
+		line-height:12px;
+		margin-bottom:26px;
+	}
+	#main .strength .box{margin:0 0 35px;}
+	#main .strength .box .image{
+		margin:0;
+		float:none;
+		width:100%;
+	}
+	#main .strength .box .image .btn{
+		top:19px;
+		left:7px;
+		width:70px;
+		font-size:10px;
+		line-height:26px;
+	}
+	#main .strength .box.box3 .image .btn,
+	#main .strength .box.box5 .image .btn{
+		top:auto;
+		bottom:15px;
+	}
+	#main .strength .box .text{
+		margin:0;
+		float:none;
+		width:100%;
+		font-size:12px;
+		line-height:18px;
+		padding:21px 10px;
+	}
+	.strength .box .text h4{
+		font-size:13px;
+		line-height:18px;
+		margin-bottom:5px;
+	}
+	/* about group */
+	.about_group{
+		padding-top:80px;
+		padding-bottom:64px;
+	}
+	.about_group h2{
+		margin-bottom:3px;
+		font-size:17px;
+		line-height:24px;
+	}
+	.about_group h3{
+		font-size:9px;
+		line-height:12px;
+		margin-bottom:24px;
+	}
+	.about_group .logo{
+		width:134px;
+		margin-bottom:28px;
+	}
+	.about_group p{
+		margin-bottom:28px;
+		font-size:12px;
+		line-height:24px;
+	}
+	.about_group .button{
+		width:184px;
+		font-size:9px;
+		line-height:49px;;
+	}
+	/* group link */
+	.group_link{
+		padding-top:43px;
+		padding-bottom:28px;
+	}
+	.group_link h2{
+		margin-bottom:3px;
+		font-size:17px;
+		line-height:24px;
+	}
+	.group_link h3{
+		font-size:9px;
+		line-height:12px;
+		margin-bottom:36px;
+	}
+	.group_link p{
+		margin-bottom:26px;
+		font-size:12px;
+		line-height:18px;
+	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	.group_link .button{
+		font-size:9px;
+		line-height:49px;
+		width:184px;
+	}
 	
 	
 	

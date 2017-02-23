@@ -5,12 +5,11 @@ $(window).resize(function() {
 
 $(document).ready(initPage);
 function initPage(){
-	initDropNav();
-	initGallery();
 	fixedHeader();
+	initDropNav();
 	mobileMenu();
 	$('.slide_block').slideBlock();
-	
+	initGallery();
 	
 	$(function() {
 		jcf.replaceAll();
