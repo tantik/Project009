@@ -11,9 +11,6 @@ function initPage(){
 	$('.slide_block').slideBlock();
 	initGallery();
 	
-	$(function() {
-		jcf.replaceAll();
-	});
 	
 }
 

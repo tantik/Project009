@@ -4,12 +4,12 @@
  * Copyright 2014-2015 PSD2HTML - http://psd2html.com/jcf
  * Released under the MIT license (LICENSE.txt)
  *
- * Version: 1.1.3
+ * Version: 1.2.0
  */
-;(function($) {
+jcf.addModule(function($) {
 	'use strict';
 
-	jcf.addModule({
+	return {
 		name: 'Radio',
 		selector: 'input[type="radio"]',
 		options: {
@@ -186,6 +186,5 @@
 				click: this.onRealClick
 			});
 		}
-	});
-
-}(jQuery));
+	};
+});

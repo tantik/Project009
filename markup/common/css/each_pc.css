@@ -110,7 +110,165 @@
 		max-width:800px;
 		overflow:hidden;
 	}
-	
+	/* structure */
+	.structure_box{
+		position:relative;
+		margin:62px auto 153px;
+		padding:107px 0 22px;
+		width:800px;
+		height:800px;
+		background:url(../../common/img/kojin/structure_bg.png) no-repeat 50% 107px;
+	}
+	.structure_box .box{
+		position:absolute;
+		border:1px #203196 solid;
+		background:#fff;
+		width:298px;
+		overflow:hidden;
+	}
+	.structure_box .box h3{
+		font-size:20px;
+		line-height:28px;
+		color:#fff;
+		background:#1f3096;
+		padding:10px 22px 11px;
+	}
+	.structure_box .box .image{position:relative;}
+	.structure_box .box .image img{
+		display:block;
+		width:100%;
+	}
+	.structure_box .box .image .btn{
+		position:absolute;
+		top:50%;
+		left:50%;
+		width:138px;
+		font-size:20px;
+		line-height:51px;
+		font-weight:bold;
+		color:#fff;
+		text-align:center;
+		-moz-transform: translate(-50%,-50%);
+		-ms-transform: translate(-50%,-50%);
+		-webkit-transform: translate(-50%,-50%);
+		-o-transform: translate(-50%,-50%);
+		transform: translate(-50%,-50%);
+		background:#f00;
+	}
+	.structure_box .box .text{
+		padding:20px 28px 25px;
+		font-size:14px;
+		line-height:21px;
+	}
+	.structure_box .box.box1{
+		top:0;
+		left:50%;
+		-moz-transform: translateX(-52%);
+		-ms-transform: translateX(-52%);
+		-webkit-transform: translateX(-52%);
+		-o-transform: translateX(-52%);
+		transform: translateX(-52%);
+	}
+	.structure_box .box.box2{
+		top:543px;
+		right:-64px;
+	}
+	.structure_box .box.box3{
+		top:543px;
+		left:-59px;
+	}
+	.structure_box .center{
+		position:absolute;
+		top:487px;
+		left:50%;
+		-moz-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		transform: translateX(-50%);
+		width:300px;
+		color:#1e259a;
+		text-align:center;
+	}
+	.structure_box .center p{
+		margin-bottom:2px;
+		font-size:16px;
+		line-height:22px;
+		font-weight:bold;
+		letter-spacing:0.5px;
+	}
+	.structure_box .center h3{
+		font-size:22px;
+		line-height:28px;
+		font-weight:bold;
+	}
+	.structure_box .rounded_box{
+		position:absolute;
+		width:148px;
+		height:43px;
+		background:#dfe0eb;
+		text-align:center;
+		border:1px #203196 solid;
+		-webkit-border-radius:4px;
+		-moz-border-radius:4px;
+		border-radius:4px;
+		font-size:18px;
+		line-height:43px;
+		font-weight:bold;
+		color:#1f3096;
+	}
+	.structure_box .rounded_box.box1{
+		top:346px;
+		right:38px;
+	}
+	.structure_box .rounded_box.box3{
+		top:362px;
+		left:31px;
+	}
+	.structure_box .rounded_box.box2{
+		top:745px;
+		left:50%;
+		-moz-transform: translateX(-48%);
+		-ms-transform: translateX(-48%);
+		-webkit-transform: translateX(-48%);
+		-o-transform: translateX(-48%);
+		transform: translateX(-48%);
+	}
+	.structure_box .phone_box{
+		position:absolute;
+		bottom:0;
+		left:50%;
+		-moz-transform: translateX(-48%);
+		-ms-transform: translateX(-48%);
+		-webkit-transform: translateX(-48%);
+		-o-transform: translateX(-48%);
+		transform: translateX(-48%);
+		width:250px;
+		text-align:center;
+	}
+	.structure_box .phone_box .phone_btn{
+		display:block;
+		margin:0 auto 10px;
+		width:148px;
+		background:#1f3096;
+		-webkit-border-radius:4px;
+		-moz-border-radius:4px;
+		border-radius:4px;
+		text-align:center;
+		font:bold 18px/43px Arial, Helvetica, sans-serif;
+		color:#fff;
+	}
+	.structure_box .phone_box .phone_btn span{
+		display:inline-block;
+		vertical-align:top;
+		padding-left:23px;
+		background:url(../../common/img/kojin/phone_icon.png) no-repeat 0 50%;
+	}
+	.structure_box .phone_box p{
+		font-size:16px;
+		line-height:22px;
+		font-weight:bold;
+	}
 	
 	
 	
@@ -262,6 +420,30 @@
 		-webkit-transform: translateX(0);
 		-o-transform: translateX(0);
 		transform: translateX(0);
+	}
+	.structure_box_holder{
+		margin:0 auto;
+		width:728px;
+	}
+	.structure_box{
+		margin-left:-36px;
+		margin-right:-36px;
+		-moz-transform: scale(0.9);
+		-ms-transform: scale(0.9);
+		-webkit-transform: scale(0.9);
+		-o-transform: scale(0.9);
+		transform: scale(0.9);
+	}
+	.structure_box .box.box2{right:2px;}
+	.structure_box .box.box3{left:2px;}
+	.structure_box .center{top:475px;}
+	.structure_box .rounded_box.box2,
+	.structure_box .phone_box{
+		-moz-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		transform: translateX(-50%);
 	}
 	#footer.inner_footer .footer_bar{width:728px;}
 }
