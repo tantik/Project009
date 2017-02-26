@@ -178,6 +178,7 @@
 		-o-transform: rotate(180deg);
 		transform: rotate(180deg);
 	}
+	.sp-b{display:block;}
 	/* コンテンツここから */
 	/* メインエリアここから */
 	#main{padding-top:42px;}
@@ -1870,4 +1871,10 @@
 		bottom:10px;
 	}
 	.small-header .link_to_top_fixed{right:10px;}
+}
+@media screen and (max-width: 320px) {
+	.social_box p{
+		font-size:10px;
+		margin:0 0 13px;
+	}
 }

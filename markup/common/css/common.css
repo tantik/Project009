@@ -129,7 +129,7 @@ input, button, textarea, select {
 .gallery .swiper-button-next:before,
 .gallery .swiper-button-prev:before{
 	content:'';	position:absolute;	top:0;	left:0;	width:100%;	height:100%;
-	opacity:0;	background:rgba(0,0,0,0.3);
+	opacity:0;	/* background:rgba(0,0,0,0.3); */
 	-webkit-transition: opacity 0.5s ease;
 	-moz-transition: opacity 0.5s ease;
 	-o-transition: opacity 0.5s ease;
@@ -138,6 +138,12 @@ input, button, textarea, select {
 }
 .gallery .swiper-button-next:hover:before,
 .gallery .swiper-button-prev:hover:before{opacity:1;}
+.gallery .swiper-button-next:hover,
+.gallery .swiper-button-prev:hover{
+	-moz-opacity:0.4;
+	filter:alpha(opacity:40);
+	opacity:0.4;
+}
 .swiper-pagination{bottom:30px !important;}
 .swiper-pagination-bullet{
 	width:10px;
